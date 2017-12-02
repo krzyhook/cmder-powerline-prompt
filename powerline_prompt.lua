@@ -179,7 +179,7 @@ function colorful_git_prompt_filter()
 
     -- Colors for git status
     local colors = {
-        clean = "\x1b[34;42m"..arrowSymbol.."\x1b[37;42m ",
+        clean = "\x1b[34;42m"..arrowSymbol.."\x1b[30;42m ", 
         dirty = "\x1b[34;43m"..arrowSymbol.."\x1b[30;43m ",
     }
 
